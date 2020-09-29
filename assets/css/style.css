@@ -1,3 +1,4 @@
+/* background of the website */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* header padding font and color */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,12 +18,13 @@ body {
   color: #ffffff;
 }
 
+/* display is something that arrang text and container */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .tian {
   color: #d9dcd6;
 }
 
@@ -49,6 +52,11 @@ a {
 
 p {
   font-size: 16px;
+}
+
+.container {
+  font-size: 16px;
+  text-align: center;
 }
 
 .hero {

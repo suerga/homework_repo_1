@@ -5,20 +5,6 @@
   margin: 0;
 }
 
-body {
-  background-color: #d9dcd6;
-}
-
-/* header padding font and color */
-/* adter using sematic text, header could be a section instead of a class */
-header {
-  padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
-}
-
 /* display is something that arrang text and container */
 /* combined feature foe header and h1 here  */
 h1 {
@@ -54,13 +40,23 @@ p {
   font-size: 16px;
 }
 
-.seo {
-  color: #d9dcd6;
+body {
+  background-color: #d9dcd6;
+}
+
+/* header padding font and color */
+/* adter using sematic text, header could be a section instead of a class */
+header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
 }
 
 /* change to nav instead of div */
 /* combine header and nav that share similar features here */
-.header nav {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -71,11 +67,6 @@ p {
   margin-left: 25px;
 }
 
-.container {
-  font-size: 16px;
-  text-align: center;
-}
-
 .hero {
   height: 800px;
   width: 100%;
@@ -83,6 +74,15 @@ p {
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.container {
+  font-size: 16px;
+  text-align: center;
+}
+
+.seo {
+  color: #d9dcd6;
 }
 
 .float-left {
